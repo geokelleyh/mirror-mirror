@@ -1,0 +1,16 @@
+/* Create two article elements with unique id values. Use Flexbox to display them in a row, each taking 50% of the width of the browser.
+Give each article a different border color. */
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #firstArticle {
+    border: 1px dotted blue;
+    flex-basis: 50%;
+  }
+  
+  #secondArticle{
+    border: 1px dashed red;
+    flex-basis: 50%;
+  }
